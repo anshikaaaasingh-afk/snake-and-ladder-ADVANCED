@@ -25,6 +25,7 @@ class Achievements:
         if achievement not in data[player]:
 
             data[player].append(achievement)
+            
 
             print(
                 f"\n🏅 Achievement Unlocked: {achievement}"
