@@ -42,3 +42,4 @@ class Achievements:
 
         for a in data.get(player, []):
             print("-", a)
+            
